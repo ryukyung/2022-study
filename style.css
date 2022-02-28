@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kaushan Script', cursive;
+    text-decoration: none;
+    color: #0F7798;
+}
+h1{
+    font-size: 120px;
+    text-align: center;
+}
+h2{font-size: 90px;}
+h3{font-size: 45px;}
+h4{
+    border: 1px solid;
+    width: 180px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+.text{
+    position: relative; 
+    text-align: center;
+}
+/*header start*/
+.header{
+    display: flex;
+    background: #000000;
+}
+.title h1,
+.title h3{
+    color: #dbdbdb;
+    position: absolute;
+}
+.title h1{
+    font-size: 100px;
+    padding-top: 150px;
+}
+.title h3{
+    font-size: 80px;
+    padding-top: 300px;
+}
+.menu{
+    display: flex;
+    background-color: #000000;
+}
+.menu li{
+    flex: 1;
+    list-style: none;
+    font-size: 30px;
+    text-align: right;
+}
+.menu li a{
+    text-decoration: none;
+    color: #dbdbdb;
+}
+.menu li a:hover{
+    color: #7e8b4b;
+}
+
+.square{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.top .text, .bottom .text{
+    color: #0f7798;
+    background: #ffffff;
+}
+.top_img img, .middle_img img{
+    width: 500px;
+    height: 500px;
+}
+.color h2, .color h3, .color h4, .color h4 a{
+    color: #dbdbdb;
+}
+.text_white{color: #dbdbdb;}
+.middle{background: #000000;}
+.bottom_img img{
+    width: 410px;
+    height: 570px;
+}
