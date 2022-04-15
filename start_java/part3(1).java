@@ -28,3 +28,7 @@ StringBuffer sb = new StringBuffer();
 sb.append("jump to java");
 sb.insert(0, "hello");
 System.out.println(sb.toString()); // hello jump to java
+
+StringBuffer sb = new StringBuffer();
+sb.append("Hello jump to java");
+System.out.println(sb.substring(0,4)); // Hell
