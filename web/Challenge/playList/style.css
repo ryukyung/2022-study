@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.bg-square {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid navy;
+  background: linear-gradient(20deg, #ffefd5, #6495ed);
+  width: 300px;
+  height: 450px;
+}
+span {
+  text-align: center;
+}
+.playlist {
+  display: flex;
+  height: 30px;
+  margin: auto 0;
+}
+.close {
+  flex: 1;
+  text-align: cneter;
+}
+.title {
+  flex: 3;
+  margin-left: 20px;
+  height: auto;
+}
+.top {
+  display: flex;
+}
+.big.square {
+  flex: 1;
+  background-color: white;
+}
+
+.text2 {
+  flex: 2;
+}
+
+.middle {
+  display: flex;
+}
+.long {
+  flex: 2;
+  display: flex;
+  background-color: skyblue;
+}
+.play {
+  flex: 1;
+}
+.text {
+  flex: 1;
+}
+.circle {
+  flex: 1;
+  background: skyblue;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.matargasti,
+.attitude,
+.try,
+.sunflower {
+  display: flex;
+}
+.matargasti.square {
+  background-color: #ffffe0;
+}
+.attitude.square {
+  background-color: #afeeee;
+}
+.try.square {
+  background-color: #5f9ea0;
+}
+.sunflower.square {
+  background-color: #2f4f4f;
+}
+.square {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 50px;
+  height: 50px;
+}
+.header.box {
+  width: 300px;
+  height: 300px;
+}
