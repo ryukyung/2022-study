@@ -9,7 +9,7 @@ body {
 .material-symbols-outlined {
   font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
 }
-.bg-square {
+.wrapper {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -22,7 +22,7 @@ body {
 span {
   text-align: center;
 }
-.playlist {
+.header {
   display: flex;
   height: 30px;
   margin: auto 0;
@@ -31,7 +31,7 @@ span {
   flex: 1;
   text-align: cneter;
 }
-.title {
+.text {
   flex: 3;
   margin-left: 20px;
   height: auto;
@@ -44,7 +44,7 @@ span {
   background-color: white;
 }
 
-.text2 {
+.container {
   flex: 2;
 }
 
