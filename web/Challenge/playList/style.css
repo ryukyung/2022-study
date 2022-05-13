@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Koulen", cursive;
 }
 body {
   background-color: white;
@@ -39,7 +40,7 @@ span {
 .top {
   display: flex;
 }
-.big.square {
+.b.square {
   flex: 1;
   background-color: white;
 }
