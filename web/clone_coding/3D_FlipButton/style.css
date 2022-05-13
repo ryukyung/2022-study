@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  perspective: 1000px;
+  /*컨테이너클래스를 전부 수직과 수평의 중앙에 위치하려고 작성하는 거임(최상위 클래스에 지정)*/
+}
+.flip-btn {
+  width: 200px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  line-height: 100px; /*위아래의 가운데 위치함ㅁ*/
+  /*요소의 height 값과 line-height 값이 같으면 수직 중앙 정렬
+  단, 텍스트가 한 줄일 때만 가능함*/
+  transform-style: preserve-3d;
+  /*flip-btn 하위에 있는 태그(front&back)들은 전부 3D 공간에 배치-> z축이 생김*/
+  transition: 0.5s;
+  cursor: pointer;
+}
+.flip-btn:hover {
+  transform: rotateX(-90deg);
+}
+.front {
+  background-color: goldenrod;
+  height: 100px;
+  transform: translateZ(50px);
+}
+.back {
+  background-color: darkgoldenrod;
+  height: 100px;
+  transform: rotateX(90deg) translateZ(150px);
+}
+
+/*우리는 flip를 3D로 보고 싶은거니깐 컨테이너 클래스에 부여 함 
+ -> perspective, 숫자가 크면 클수록 멀리본다. 숫자가 작으면 원근감을 가까이
+ transform : rotataX(80deg); -> 아예 누운것 처럼 밑에 둥둥? 뜨게 가능함
+translateZ(150px) : back에 위치하고 있는데 front 뒤에 숨어있는 것처럼 학 ㅗ싶어서 그런거임
+
+ */
