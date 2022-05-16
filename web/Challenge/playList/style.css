@@ -2,23 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Koulen", cursive;
+  font-family: "Changa One", cursive;
 }
 body {
   background-color: white;
-}
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 .wrapper {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  border: 2px solid navy;
-  background: linear-gradient(20deg, #ffefd5, #6495ed);
-  width: 300px;
-  height: 450px;
+  border: 3px solid navy;
+  background: linear-gradient(35deg, #ead2ad, #f2ead0, #bdc0fb, #93b7fa);
+  width: 350px;
+  height: 500px;
 }
 span {
   text-align: center;
@@ -29,22 +26,24 @@ span {
   margin: auto 0;
 }
 .close {
-  flex: 1;
-  text-align: cneter;
+  text-align: center;
+  margin: 3px;
 }
 .text {
-  flex: 3;
-  margin-left: 20px;
   height: auto;
+}
+.text.playlist {
+  margin-left: 70px;
 }
 .top {
   display: flex;
 }
 .b.square {
-  flex: 1;
   background-color: white;
+  margin: 15px;
+  width: 70px;
+  height: 70px;
 }
-
 .container {
   flex: 2;
 }
