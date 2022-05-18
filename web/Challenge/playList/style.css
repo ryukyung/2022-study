@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Changa One", cursive;
+  font-family: "Oswald", sans-serif;
 }
 body {
   background-color: white;
@@ -17,13 +17,11 @@ body {
   width: 350px;
   height: 500px;
 }
-span {
-  text-align: center;
-}
+/*-----------------header-end----------------*/
 .header {
   display: flex;
   height: 30px;
-  margin: auto 0;
+  margin: auto 10px;
 }
 .close {
   text-align: center;
@@ -31,48 +29,82 @@ span {
 }
 .text {
   height: auto;
+  flex: 1;
 }
 .text.playlist {
   margin-left: 70px;
 }
+/*-----------------top-end----------------*/
+/* 이미지에서 마진 말고 가운데 정렬하기 찾아봐야 함*/
 .top {
   display: flex;
 }
 .b.square {
   background-color: white;
   margin: 15px;
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
+}
+.material-symbols-outlined.image {
+  font-size: 60px;
+  margin-top: 10px;
+  margin-left: 8px;
 }
 .container {
-  flex: 2;
+  flex: 1;
+  margin-top: 25px;
 }
-
+.big.text {
+  font-size: 30px;
+  font-weight: 10px;
+}
+.small.text {
+  font-size: 13px;
+}
+/*-----------------middle-----------------*/
 .middle {
   display: flex;
 }
-.long {
-  flex: 2;
+.long.square {
   display: flex;
-  background-color: skyblue;
+  background-color: #afeeee;
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  margin: 10px 15px;
 }
-.play {
-  flex: 1;
+.long.square,
+.circle {
+  box-shadow: -1.5px 1.5px black;
 }
-.text {
-  flex: 1;
+.material-symbols-outlined .play {
+  margin-right: 30px;
+}
+.text.play {
+  text-align: center;
 }
 .circle {
-  flex: 1;
-  background: skyblue;
+  background: #afeeee;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 1.5px solid black;
+  width: 40px;
+  height: 40px;
+  margin: 10px 15px;
 }
+/*-----------------bottom-----------------*/
 .matargasti,
 .attitude,
 .try,
 .sunflower {
   display: flex;
+}
+.square {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  margin-bottom: 15px;
 }
 .matargasti.square {
   background-color: #ffffe0;
@@ -85,14 +117,4 @@ span {
 }
 .sunflower.square {
   background-color: #2f4f4f;
-}
-.square {
-  border: 1px solid black;
-  border-radius: 15px;
-  width: 50px;
-  height: 50px;
-}
-.header.box {
-  width: 300px;
-  height: 300px;
 }
