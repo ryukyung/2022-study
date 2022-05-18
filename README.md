@@ -1,2 +1,2 @@
 # 2022 study
-### 🐊 python, javaScript, clone coding
+### 🐊 Web - Challenge, clone coding
