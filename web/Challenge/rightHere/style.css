@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: cadetblue; /*rgb(230, 230, 230);*/
+}
+.wrapper {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.box {
+  flex: 1;
+  width: 210px;
+  height: 480px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+/*middle*/
+/*.middle{}*/
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: block;
+  margin: 30px auto 0px auto;
+}
+.big {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+.gray {
+  font: skyblue;
+  color: skyblue;
+}
+.small {
+  color: black;
+  font-size: 10px;
+  text-align: center;
+}
+.square {
+  width: 100px;
+  height: 100px;
+}
+.square.img {
+  width: 100px;
+  height: 100px;
+}
