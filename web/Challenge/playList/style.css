@@ -16,12 +16,14 @@ body {
   background: linear-gradient(35deg, #ead2ad, #f2ead0, #bdc0fb, #93b7fa);
   width: 350px;
   height: 500px;
+  padding: 10px;
 }
 /*-----------------header-end----------------*/
 .header {
   display: flex;
   height: 30px;
-  margin: auto 10px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .close {
   text-align: center;
@@ -41,18 +43,15 @@ body {
 }
 .b.square {
   background-color: white;
-  margin: 15px;
   width: 80px;
   height: 80px;
 }
 .material-symbols-outlined.image {
   font-size: 60px;
   margin-top: 10px;
-  margin-left: 8px;
 }
 .container {
   flex: 1;
-  margin-top: 25px;
 }
 .big.text {
   font-size: 30px;
