@@ -14,9 +14,10 @@ body {
   transform: translate(-50%, -50%);
   border: 3px solid navy;
   background: linear-gradient(35deg, #ead2ad, #f2ead0, #bdc0fb, #93b7fa);
-  width: 350px;
-  height: 500px;
-  padding: 10px;
+  width: 300px;
+  height: 450px;
+  padding-top: 10px;
+  padding-left: 15px;
 }
 /*-----------------header-end----------------*/
 .header {
@@ -37,7 +38,6 @@ body {
   margin-left: 70px;
 }
 /*-----------------top-end----------------*/
-/* 이미지에서 마진 말고 가운데 정렬하기 찾아봐야 함*/
 .top {
   display: flex;
 }
@@ -45,10 +45,16 @@ body {
   background-color: white;
   width: 80px;
   height: 80px;
+  position: relative;
+  margin-right: 10px;
+  margin-bottom: 15px;
 }
 .material-symbols-outlined.image {
   font-size: 60px;
-  margin-top: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .container {
   flex: 1;
@@ -63,47 +69,77 @@ body {
 /*-----------------middle-----------------*/
 .middle {
   display: flex;
+  justify-content: space-around;
 }
 .long.square {
-  display: flex;
-  background-color: #afeeee;
+  background-color: #b4d1de;
   width: 100px;
   height: 40px;
   border: 1px solid black;
-  margin: 10px 15px;
+  position: relative;
 }
 .long.square,
 .circle {
   box-shadow: -1.5px 1.5px black;
+  display: flex;
+  position: relative;
 }
-.material-symbols-outlined .play {
-  margin-right: 30px;
+.material-symbols-outlined.play {
+  transform: translate(-100%, -50%);
 }
 .text.play {
-  text-align: center;
+  transform: translate(-15%, -50%);
 }
+.material-symbols-outlined.play,
+.text.play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
 .circle {
-  background: #afeeee;
+  position: relative;
+  background: #b4d1de;
   border-radius: 50%;
   border: 1.5px solid black;
   width: 40px;
   height: 40px;
-  margin: 10px 15px;
+}
+.material-symbols-outlined.favorite,
+.material-symbols-outlined.add {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 /*-----------------bottom-----------------*/
+.bottom {
+  /*border: 1px solid red;*/
+  width: 250px;
+  height: 250px;
+  margin-top: 15px;
+}
 .matargasti,
 .attitude,
 .try,
 .sunflower {
   display: flex;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
-.square {
+/*.square {
   border: 1px solid black;
   border-radius: 10px;
   width: 40px;
   height: 40px;
   margin-right: 10px;
   margin-bottom: 15px;
+}*/
+.square {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
 }
 .matargasti.square {
   background-color: #ffffe0;
@@ -116,4 +152,7 @@ body {
 }
 .sunflower.square {
   background-color: #2f4f4f;
+}
+.gray {
+  color: gray;
 }
