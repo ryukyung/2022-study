@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  width: 200px;
+  height: 460px;
+  background-color: ivory; /* white;*/
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+}
+.circle img {
+  display: block;
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+}
+.button {
+  display: flex;
+}
+.square {
+  justify-content: space-around;
+  width: 40px;
+  height: 20px;
+}
+.black {
+  background: black;
+  color: white;
+}
+.gray {
+  background: gray;
+  color: white;
+}
