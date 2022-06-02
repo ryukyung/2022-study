@@ -7,7 +7,7 @@ someAny = 123.123
 
 // AnyObejct
 class someClass {}
-var someAnyObject: AnyObject = SomeClass()
+var someAnyObject: AnyObject = someClass()
 //someAnyObject = 123.12 -> 컴파일 오류 : 클래스의 인스턴스만 수용 가능, 클래스 인스턴스 아니면 할당 불가
 
 // nil
