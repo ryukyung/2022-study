@@ -1,0 +1,21 @@
+body {
+  background-color: #ea7c48;
+}
+.big {
+  width: 500px;
+  height: 500px;
+  margin: 40px auto;
+  background-color: #eeebc9;
+  border: 2px solid black;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 40px auto;
+  background-color: #0f6651;
+  border: 2px solid white;
+}
+.long {
+  width: 400px;
+  border-style: dashed;
+}
