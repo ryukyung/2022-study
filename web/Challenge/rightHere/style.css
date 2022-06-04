@@ -1,36 +1,66 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  /* box-sizing */
 }
-.box {
-  width: 200px;
-  height: 460px;
-  background-color: ivory; /* white;*/
-  border: 1px solid black;
-  border-radius: 10px;
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+body {
+  background-color: lightgray;
 }
-.circle img {
-  display: block;
-  margin: auto;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+.full {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
 }
-.button {
+.rotate {
+  transform: rotate(90deg);
+}
+.playlist {
+  width: 250px;
+  height: 450px;
+  background: white;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h5 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 15px;
+}
+.header {
   display: flex;
+  justify-content: space-between;
+  margin: 5px 5px;
 }
-.square {
-  justify-content: space-around;
-  width: 40px;
-  height: 20px;
+/* header end */
+.middle .circle {
+  background-color: lightgreen;
+  width: 60px;
+  height: 60px;
+  box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  margin: 0 auto;
 }
-.black {
-  background: black;
-  color: white;
+
+.middle .text {
+  text-align: center;
 }
-.gray {
-  background: gray;
-  color: white;
+.middle .text h5 {
+  margin-top: 15px;
+}
+.buttons .black {
+  background-color: black;
+}
+.buttons .black,
+.buttons .gray {
+  border-radius: 30px;
+  width: 90px;
+  height: 30px;
+  border: none;
+}
+.buttons .gray {
+  background-color: darkgray;
 }
