@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(./images/halloween-background.gif);
+}
+.header {
+  background-image: url(./images/halloween-header-bg.png);
+  margin: 0 auto;
+  width: 800px;
+  height: 400px;
+  text-align: center;
+}
+.header .profile {
+  margin-top: 50px;
+}
+h1 {
+  color: violet;
+  text-align: center;
+  margin: 10px 0;
+}
+.header p {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(218, 218, 218);
+  margin: 0 auto;
+  width: 390px;
+  text-align: center;
+  padding: 15px 15px;
+}
+.section {
+  background-image: url(./images/icon-information.png);
+  background-repeat: no-repeat;
+  background-position: right 30px center;
+  background-color: white;
+  width: 740px;
+  margin: 0 auto;
+  border: 10px solid lightgray;
+  list-style-image: url(./images/icon-jack-2.jpeg);
+  padding: 20px;
+}
+.section.skills {
+  background-image: url(./images/icon-skills.png);
+  background-position: right 30px center;
+}
+h2 {
+  color: rgb(255, 98, 0);
+}
+li {
+  list-style-type: none;
+  color: black;
+  background-image: url(./images/icon-jack2.png);
+  background-repeat: no-repeat;
+  padding: 10px 50px 10px;
+}
+li:hover {
+  color: rgb(255, 98, 0);
+  background-image: url(./images/icon-jack.png);
+}
+.footer {
+  background-color: black;
+  color: violet;
+  padding: 20px 0;
+  text-align: center;
+}
