@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 하늘색 : #00c7c7
+    연한 하늘색 : #9ffcff
+    빨간색 : red
+    회색 : gray  */
+.wrapper {
+  width: 450px;
+  height: 200px;
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.top {
+  background-color: #00c7c7;
+  text-align: center;
+  width: 450px;
+  height: 80px;
+}
+.white {
+  color: white;
+}
+.middle {
+  background-color: white;
+  height: 70px;
+  width: 450px;
+}
+.input {
+  background-color: blue;
+}
+.button {
+  width: 35px;
+  height: 25px;
+  background-color: #00c7c7;
+  color: white;
+}
+.bottom {
+  height: 70px;
+}
