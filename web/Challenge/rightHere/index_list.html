@@ -1,11 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style_list.css" />
+    <link rel="stylesheet" href="./listen.css" />
+    <link rel="stylesheet" href="./playlist.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <!-- playlist start -->
+    <header class="wrapper playlist">
+      <section class="playlist top">
+        <div class="icons">
+          <span class="material-symbols-outlined arrow_back"> arrow_back </span>
+          <span class="material-symbols-outlined search"> search </span>
+        </div>
+        <div class="circle">
+          <div class="texts">
+            <h1 class="big">Keshi</h1>
+            <h2 class="small">POP, R&B/Soul</h2>
+          </div>
+        </div>
+        <div class="buttons">
+          <div class="black button">
+            <h2 class="small">Shuffle</h2>
+          </div>
+          <div class="gray button">
+            <span class="material-symbols-outlined"> favorite </span>
+            <h2 class="small">212971</h2>
+          </div>
+          <!-- playlist top end -->
+        </div>
+      </section>
+      <section class="playlist middle">
+        <div class="container">
+          <!-- img -->
+          <div class="texts">
+            <h2 class="small">Keshi</h2>
+            <h1 class="big">2 Soon</h1>
+          </div>
+          <span class="material-symbols-outlined"> more_vert </span>
+        </div>
+        <div class="container">
+          <!-- img -->
+          <div class="texts">
+            <h2 class="small">Keshi</h2>
+            <h1 class="big">More</h1>
+          </div>
+          <span class="material-symbols-outlined"> more_vert </span>
+        </div>
+        <!-- container this -->
+        <div class="this">
+          <div class="container">
+            <div class="img">
+              <span class="material-symbols-outlined"> tune </span>
+              <!-- img -->
+            </div>
+            <div class="texts">
+              <h2 class="small">Keshi</h2>
+              <h1 class="big">Right here</h1>
+            </div>
+            <span class="material-symbols-outlined"> more_vert </span>
+          </div>
+        </div>
+        <!-- container this end -->
+        <div class="container">
+          <!-- img -->
+          <div class="texts">
+            <h2 class="small">Keshi</h2>
+            <h1 class="big">The reaper</h1>
+          </div>
+          <span class="material-symbols-outlined"> more_vert </span>
+        </div>
+      </section>
+      <!-- playlist middle end -->
+      <section class="playlist bottom">
+        <div class="round">
+          <div class="texts">
+            <h2 class="small">Keshi</h2>
+            <h1 class="top">Right here</h1>
+          </div>
+          <div class="music move">
+            <span class="material-symbols-outlined"> skip_previous </span>
+            <span class="material-symbols-outlined"> pause </span>
+            <span class="material-symbols-outlined"> skip_next </span>
+          </div>
+        </div>
+      </section>
+      <!-- playlist bottom end -->
+    </header>
+    <!-- playlist end -->
+
+    <!-- listen start -->
+    <header class="wrapper listen">
+      <section class="listen top">
+        <div class="icons">
+          <span class="material-symbols-outlined arrow_back"> arrow_back </span>
+          <span class="material-symbols-outlined"> more_vert </span>
+        </div>
+        <!-- square img -->
+      </section>
+      <!-- listen top  end -->
+      <section class="listen middle">
+        <div class="texts">
+          <h1 class="big">Right here</h1>
+          <h2 class="small">Keshi</h2>
+        </div>
+        <div class="time">
+          <h2 class="small">2:15</h2>
+          <h2 class="small">3:22</h2>
+        </div>
+        <div class="time_bar"></div>
+      </section>
+      <!-- listen middle end -->
+      <section class="listen bottom">
+        <span class="material-symbols-outlined"> repeat </span>
+        <span class="material-symbols-outlined"> skip_previous </span>
+        <span class="material-symbols-outlined"> play_circle </span>
+        <span class="material-symbols-outlined"> skip_next </span>
+        <span class="material-symbols-outlined"> shuffle </span>
+      </section>
+      <!-- listen bottom end -->
+    </header>
+  </body>
 </html>
