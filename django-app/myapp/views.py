@@ -44,6 +44,12 @@ def create(request):
         </form>
     '''
     return HttpResponse(HTMLTemplate(article))
+# placeholder : 무엇을 입력해야 하는지 안내하는 문구
+# <form action = "/create/" method="post"> : 현재 페이지로 보낼거임
+#
+#
+#
+#
 
 
 def read(request, id):
