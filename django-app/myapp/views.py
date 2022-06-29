@@ -101,8 +101,6 @@ def update(request, id):
                 topic['title'] = title
                 topic['body'] = body
         return redirect(f'/read/{id}')
-# create vs. update : update는 기본적으로 유아이에 데이터가 있어야 함
-#
 
 
 @csrf_exempt
