@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+.earth{
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50%-100px);
+}
+.earth img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.moon-container{
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50%-25px);
+}
+.earth img, .moon img{
+    border-radius: 50%;
+    box-shadow: 0 0 12em 1em rgba(110, 140,200, 0.6);
+}
+.earth img, .moon img{
+    border-radius: 50%;
+    box-shadow: 0 0 12em 1em rgba(110, 140,200, 0.6);
+}
+@keyframes spin{
+    to{
+        transform: rotateZ(360deg);
+    }
+}
