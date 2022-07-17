@@ -1,2 +1,1 @@
-# 2022 study
-### 🐊 Web - Challenge, clone coding
+# HTML-CSS-JavaScript
